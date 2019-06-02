@@ -1,0 +1,27 @@
+.logo
+    display: flex
+    align-items: center
+    color: #ffffff
+    font-family: "Lato Heavy"
+    font-size: 36px
+    img
+        margin-right: 10px
+    span
+        color: #f80759
+.button
+    outline: none
+    border: none
+    padding: 15px 60px
+    border-radius: 5px
+    background-color: $active-color
+    background-image: linear-gradient(to right, #e100ff 0%, #f80759 100%)
+    color: #fefefe
+    font-family: Lato
+    font-size: 16px
+    font-weight: 400
+    &-o
+        background: transparent
+        border: 1px solid #f80759
+@media (max-width: 768px)
+    .logo
+        font-size: 25px
